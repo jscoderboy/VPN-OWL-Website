@@ -27,7 +27,7 @@ function clock(){
     hours = updateTime(hours);
     minutes = updateTime(minutes);
     seconds = updateTime(seconds);
-    var name = "Shashank";
+    var name = " Shashank";
 
     // if else condition
     midday = (hours >= 12) ? "PM" : "AM";
@@ -38,7 +38,7 @@ function clock(){
     }, 1000);
 // Good morning after noon evening condition
 if(hours <12){
-    var greeting = "Good Morning" + name + "Hurry up";
+    var greeting = "Good Morning" + name;
 }
 if(hours >= 12 && hours <= 18){
     var greeting = "Good Afternoon" + name;
