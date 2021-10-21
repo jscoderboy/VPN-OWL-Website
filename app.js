@@ -24,7 +24,7 @@ function clock() {
     var name = " Shashank";
 
   // if else condition
-  midday = hours >= 12 ? "PM" : "AM";
+  midday = hours >= 12 ? " PM" : " AM";
   document.getElementById("clock").innerHTML =
     hours + ":" + minutes + ":" + seconds + midday;
 
