@@ -58,3 +58,14 @@ function updateTime(k){
     }
 }
 clock();
+
+// hex code color changer theme 
+const ip = document.getElementById("color-input");
+ip.addEventListener("keyup", (e) => {
+  const value = e.target.value;
+  if (/^#([0-9A-F]{3}){1,2}$/i.test(value)) {
+    console.log(" HAX ", value);
+    document.body.style.backgroundColor = value;
+  }
+});
+
