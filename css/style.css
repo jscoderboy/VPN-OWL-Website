@@ -285,6 +285,29 @@ img {
   margin-right: 30px;
 }
 
+/* theme color changer */
+.theme {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.theme .form input {
+  font-family: "Baloo Bhai 2", cursive;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  right: 2px;
+  background-color: #ebc034;
+  color: #000;
+  border-radius: 0px 0px 0px 30px;
+  border: none;
+}
+.form input::placeholder {
+  color: #000;
+}
+
 /* Media Query | Responsive */
 @media (max-width: 768px) {
   .navbar {
